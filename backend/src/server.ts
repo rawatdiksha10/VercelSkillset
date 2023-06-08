@@ -27,7 +27,7 @@ const mongoDBstore = new MongoDBStore({
 app.use(
   cors({
     allowedHeaders: ['Content-Type','Authorization'],
-    origin: "https://vercel-skillset-1.vercel.app",
+    origin: "https://vercel-skillset-4.vercel.app",
     methods: ["GET","POST","PUT","DELETE","OPTIONS","HEAD"],
     credentials: true
   })
